@@ -1,0 +1,20 @@
+proc set_multi_cpu_usage {args} {
+     array set options { -localCPU <num_of_threads> -help "" }
+          while { $args != "" } {
+          switch -glob -- [lindex $args 0] {
+          -localCPU { 
+                     set args [lassign $args - options(-localCPU)]
+                     puts "set_num_threads $options(-localCPU)"
+                     
+                    }
+          -help {
+                 set args [lassign $args - options(-help)]
+                 puts "Usage : set_multi_cpu_usage -localCPU <num_of_threads>"
+
+                }
+           
+            }
+         
+        } 
+   
+ } 
