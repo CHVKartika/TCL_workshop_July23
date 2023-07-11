@@ -7,7 +7,7 @@ According to the specifications the shell script must give an error on invalid i
 Case 1 : No input file given
 Case 2 : Input provided is not in the same directory
 It also prints out a help option on suffixing '-help' to the command
-
+![No input file given](TCL_workshop_July23/task1_1.png)
 **TASK 2**
 The tcl script is called from the shell script.
 The algorithm used is similar to what is recommended in the videos. However as I had trouble with a few commands. I had to modify the algorithm.
