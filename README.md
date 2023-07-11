@@ -1,7 +1,6 @@
 # TCL_workshop_July23
 task1.sh is the shell script which calls the tcl script task2.tcl
 Comments are yet to be made, only uploaded the finished code.
-( Current Progress : Yosys synthesis script )
 **TASK 1**
 The way to run the shell script is 'bash task1.sh example.csv'
 According to the specifications the shell script must give an error on invalid input, and it does for both the cases.
